@@ -13,13 +13,8 @@
 
 /* Links */
 
-a {
-    color: #fff;
-}
-
 a, a:link, a:visited  {
     text-decoration: none;
-    color: #fff;
 }
 
 a:hover  {

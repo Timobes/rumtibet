@@ -85,4 +85,319 @@
 .about {
     width: 100%;
     height: 726px;
+
+    display: flex;
+
+    padding-top: 100px;
+}
+
+.bg-gray {
+    width: 100% !important;
+    justify-content: space-between;
+    background-color: #F3F5F4;
+}
+
+.b-about__img {
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.z-1 {
+    position: relative;
+}
+
+.z-2 {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.b-about__text {
+    width: 580px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    row-gap: 40px;
+}
+
+.about__img {
+    width: 350px;
+    height: 400px;
+}
+
+.about__name {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+    color: #F2BE22;
+}
+
+.about__head {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: center;
+
+    color: #18121E;
+}
+
+.about__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+    color: #18121E;
+}
+
+.about__btn {
+    width: 200px;
+    max-width: 236px;
+
+    height: 52px;
+
+    padding: 16px 36px 16px 36px;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+
+    color: #fff;
+    background: #1A3E3E;
+}
+
+.w-510 {
+    width: 510px;
+    height: 510px;
+
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.w-250 {
+    width: 250px;
+    height: 250px;
+}
+
+.about__offer {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 40px;
+}
+
+.offer__item {
+    display: flex;
+    align-items: center;
+}
+
+.offer__img {
+    min-width: 50px;
+    height: 50px;
+
+    padding: 10px;
+    margin-right: 16px;
+}
+
+.offer__head {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-align: left;
+
+    color: #18121E;
+}
+
+.offer__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.bg-green {
+    background: #E5EEEB;
+}
+
+.bg-blue {
+    background: #E3E6EE;
+}
+
+.bg-yellow {
+    background: #F3F1E1;
+}
+
+.popular {
+
+}
+
+.b-course__card {
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+}
+
+.course__card {
+    width: 380px;
+    height: 500px;
+
+    position: relative;
+}
+
+.course__img {
+    position: relative;
+}
+
+.b-course__rating {
+    width: 65px;
+    height: 32px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px 0 0 4px;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    bottom: 85%;
+    right: 0;
+
+    color: #1A3E3E;
+    background: rgba(253, 253, 253, 0.4);
+}
+
+.rating__img {
+}
+
+.course__head {
+    width: 380px;
+    height: 90px;
+    border-radius: 0 0 32px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 0;
+
+    padding-left: 32px;
+    padding-right: 32px;
+
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.course__name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.course__summary {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.course__price {
+    width: 86px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.course__desc {
+    display: none;
+}
+
+.blog {
+
+}
+
+.b-blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog__post {
+    width: 580px;
+    height: 312px;
+
+    display: flex;
+
+    padding: 16px;
+
+    color: #FDFDFD;
+}
+
+.blog__img {
+    margin-right: 24px;
+}
+
+.b-blog__text {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 24px;
+}
+
+.blog__name {
+    height: 96px;
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    color: #18121E;
+
+}
+
+.blog__desc {
+    height: 116px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    color: #18121E;
+}
+
+.blog__date_AND_blog__link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__date {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+
+    color: #F2BE22;
+}
+
+.blog__link {
+    color: #1A3E3E;
 }
