@@ -401,3 +401,133 @@
 .blog__link {
     color: #1A3E3E;
 }
+
+.b-photo {
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.photo__item {
+
+}
+
+.footer {
+    width: 100%;
+    background-color: #1A3E3E;
+
+    padding-top: 150px;
+}
+
+.b-footer {
+    width: 1180px;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+
+    color: #fff;
+}
+
+.company {
+    width: 480px;
+}
+
+.company__name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.company__desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-bottom: 80px;
+}
+
+.mail__AND__phone {
+    display: flex;
+
+    column-gap: 24px;
+
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.mail {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+
+    color: #fff;
+}
+
+.number {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.foot__nav {
+    display: flex;
+    align-items: center;
+
+    column-gap: 24px;
+}
+
+.nav__link {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 16px;
+}
+
+.services__name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.services__item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+
+    color: #fff;
+}
+
+.foot__foot {
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+    background-color: #000;
+}
+
+.ip {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.politics {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
